@@ -27,10 +27,10 @@ const maxTries = 10;            // Max player guesses
 
 var guessedLetters = [];        // Letters guessed by the player
 var currentWordIndex;           // Current word
-var guessingWord = [];          // This will be the word we actually build to match the current word
-var remainingGuesses = 0;       // How many tries the player has left
+var guessingWord = [];          // Actual word
+var remainingGuesses = 0;       // Remaining guesses
 var hasFinished = false;        // Flag for 'press any key to try again'     
-var wins = 0;                   // How many wins has the player racked up
+var wins = 0;                   // Player wins
 
 // Game sounds
 var keySound = new Audio('./assets/sounds/guess.mp3');
